@@ -1,15 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Contact - Md. Rashedul Islam</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
-    nav { text-align: center; background: #004b99; padding: 10px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    body { font-family: Arial, sans-serif; background: #f5f9ff; }
-    main { padding: 40px; max-width: 700px; margin: auto; }
-    a { color: #004b99; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    nav {
+      text-align: center;
+      background: #004b99;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f9ff;
+    }
+    main {
+      padding: 40px;
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+    a {
+      color: #004b99;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Social Icons Styling */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .social-icons a {
+      text-decoration: none;
+      color: white;
+      font-size: 22px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #333;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .social-icons a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+    .social-icons a.facebook:hover {
+      background-color: #3b5998;
+    }
+    .social-icons a.linkedin:hover {
+      background-color: #0077b5;
+    }
+    .social-icons a.github:hover {
+      background-color: #000;
+    }
   </style>
 </head>
 <body>
@@ -26,8 +89,23 @@
     <h2>Contact</h2>
     <p><strong>Email:</strong> <a href="mailto:rasheduleee01@gmail.com">rasheduleee01@gmail.com</a></p>
     <p><strong>Location:</strong> Gazipur, Dhaka, Bangladesh</p>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/rashedul083" class="facebook" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/rashedul-islam-b88420109/" class="linkedin" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://rasheduleee01.github.io/rashedul-profile/" class="github" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
   </main>
 
 </body>
 </html>
+
+
 
