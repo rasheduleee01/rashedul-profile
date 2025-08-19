@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Education - Md. Rashedul Islam</title>
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    nav { text-align: center; background: #004b99; padding: 10px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    body { font-family: Arial, sans-serif; background: #f5f9ff; }
-    main { padding: 40px; max-width: 700px; margin: auto; }
+    nav {
+      text-align: center;
+      background: #004b99;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f9ff;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #004b99;
+      border-bottom: 2px solid #004b99;
+      padding-bottom: 5px;
+    }
+    .education {
+      margin-bottom: 40px;
+    }
+    .institution {
+      font-size: 20px;
+      font-weight: bold;
+      color: #004b99;
+    }
+    .degree {
+      font-size: 18px;
+      font-weight: normal;
+      color: #222;
+    }
+    .year {
+      font-style: italic;
+      color: #555;
+    }
+    .grade {
+      color: #333;
+      margin-bottom: 5px;
+    }
+    a.institution-link {
+      color: #004b99;
+      text-decoration: none;
+    }
+    a.institution-link:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #004b99;
+      margin-top: 40px;
+    }
+    footer a {
+      margin: 0 15px;
+      color: white;
+      font-size: 28px;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #ffdd57;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -17,20 +91,50 @@
     <a href="about.html">About Me</a>
     <a href="skills.html">Skills</a>
     <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
     <a href="contact.html">Contact</a>
   </nav>
 
   <main>
     <h2>Education</h2>
-    <ul>
-      <li><strong>Diploma in Engineering:</strong> Electrical Technology  
-        <br>Dhaka Polytechnic Institute
-      </li>
-      <li><strong>B.Sc in EEE:</strong> Electrical & Electronic Engineering  
-        <br>Hamdard University Bangladesh
-      </li>
-    </ul>
+
+    <div class="education">
+      <div class="institution">
+        <a href="https://www.hamdarduniversity.edu.bd" class="institution-link" target="_blank">
+          Hamdard University Bangladesh
+        </a>
+      </div>
+      <div class="degree">Bachelor of Science (BSc), Electrical and Electronic Engineering</div>
+      <div class="year">2015 - 2019</div>
+      <div class="grade">Grade: CGPA 3.96 out of 4.00</div>
+    </div>
+
+    <div class="education">
+      <div class="institution">
+        <a href="https://dpi.gov.bd" class="institution-link" target="_blank">
+          Dhaka Polytechnic Institute
+        </a>
+      </div>
+      <div class="degree">Diploma in Engineering, Electrical Technology</div>
+      <div class="year">2007 - 2011</div>
+      <div class="grade">Grade: CGPA 3.70 out of 4.00</div>
+    </div>
+
   </main>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/rashedul-islam-b88420109/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/rashedul083" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="mailto:rasheduleee01@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </footer>
 
 </body>
 </html>
+
+
